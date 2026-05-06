@@ -9,8 +9,8 @@ import img8 from "../../src/assets/m3.jpg";
 import img9 from "../../src/assets/m4.jpg";
 import img10 from "../../src/assets/m5.jpg";
 import img11 from "../../src/assets/m6.jpg";
-import img12 from "../../src/assets/s1.svg";
-import img13 from "../../src/assets/s2.svg";
+import img12 from "../../src/assets/s1.png";
+import img13 from "../../src/assets/s2.png";
 
 function Sales() {
   return (
