@@ -9,6 +9,8 @@ import img8 from "../../src/assets/m3.jpg";
 import img9 from "../../src/assets/m4.jpg";
 import img10 from "../../src/assets/m5.jpg";
 import img11 from "../../src/assets/m6.jpg";
+import img12 from "../../src/assets/s1.svg";
+import img13 from "../../src/assets/s2.svg";
 
 function Sales() {
   return (
@@ -23,7 +25,7 @@ function Sales() {
         <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
           <div className="max-lg:rounded-t-4xl lg:col-span-3 lg:rounded-tl-4xl relative flex flex-col overflow-hidden rounded-lg bg-white shadow-xs ring-1 ring-black/5">
             <div className="relative h-80 shrink-0">
-              <div style={{ backgroundImage: `url(${img1})` }} className="h-80 bg-size-[1000px_560px] bg-position-[left_-109px_top_-112px] bg-no-repeat"></div>
+              <div style={{ backgroundImage: `url(${img12})` }} className="h-80 bg-size-[1000px_560px] bg-position-[left_-109px_top_-112px] bg-no-repeat"></div>
               <div className="absolute inset-0 z-10 bg-linear-to-t from-white to-50%"></div>
             </div>
             <div className="relative p-10">
@@ -42,7 +44,7 @@ function Sales() {
           </div>
           <div className="max-lg:rounded-t-4xl lg:col-span-3 lg:rounded-tl-4xl group relative flex flex-col overflow-hidden rounded-lg bg-white shadow-xs ring-1 ring-black/5">
             <div className="relative h-80 shrink-0">
-              <div className="absolute bg-[url(../../src/assets/s2.png)] inset-0 bg-size-[1100px_650px] bg-position-[left_-38px_top_-73px] bg-no-repeat"></div>
+              <div style={{ backgroundImage: `url(${img13})` }} className="absolute inset-0 bg-size-[1100px_650px] bg-position-[left_-38px_top_-73px] bg-no-repeat"></div>
               <div className="absolute inset-0 bg-linear-to-t from-white to-50%"></div>
             </div>
             <div className="relative p-10">
