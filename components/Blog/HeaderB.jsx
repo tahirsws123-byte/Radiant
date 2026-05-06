@@ -218,8 +218,8 @@ export default function HeaderB() {
                         />
                       </svg>
                     </button>
-                    <el-dialog>
-                      <dialog
+                    <div>
+                      <div
                         id="mobile-menu"
                         className="backdrop:bg-transparent lg:hidden"
                       >
@@ -227,7 +227,7 @@ export default function HeaderB() {
                           tabIndex="0"
                           className="fixed inset-0 focus:outline-none"
                         >
-                          <el-dialog-panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
+                          <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
                             <div className="flex items-center justify-between">
                               <a href="#" className="-m-1.5 p-1.5">
                                 <span className="sr-only">Your Company</span>
@@ -268,25 +268,7 @@ export default function HeaderB() {
                                     href="#"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5"
                                   >
-                                    Pricing
-                                  </a>
-                                  <a
-                                    href="#"
-                                    className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5"
-                                  >
-                                    Company
-                                  </a>
-                                  <a
-                                    href="#"
-                                    className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5"
-                                  >
                                     Blog
-                                  </a>
-                                  <a
-                                    href="#"
-                                    className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5"
-                                  >
-                                    Company
                                   </a>
                                 </div>
                                 <div className="py-6">
@@ -299,10 +281,10 @@ export default function HeaderB() {
                                 </div>
                               </div>
                             </div>
-                          </el-dialog-panel>
+                          </div>
                         </div>
-                      </dialog>
-                    </el-dialog>
+                      </div>
+                    </div>
                   </div>
                 </nav>
               </div>
