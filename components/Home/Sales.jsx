@@ -4,6 +4,7 @@ import img3 from "../../src/assets/s-3.svg";
 import img4 from "../../src/assets/s-4.svg";
 import img5 from "../../src/assets/s-5.svg";
 import img6 from "../../src/assets/s-6.svg";
+import img14 from "../../src/assets/m1.png";
 import img7 from "../../src/assets/m2.jpg";
 import img8 from "../../src/assets/m3.jpg";
 import img9 from "../../src/assets/m4.jpg";
@@ -979,7 +980,8 @@ function Sales() {
             <div className="relative h-80 shrink-0 group">
               <div className="relative size-full">
                 <div
-                  className="absolute inset-0 bg-[url(../../src/assets/m1.png)] 
+                style={{ backgroundImage: `url(${img14})` }}
+                  className="absolute inset-0
     mask-[linear-gradient(to_bottom,black_50%,transparent)]
     bg-size-[530px_430px] 
     bg-position-[center_-75px] 

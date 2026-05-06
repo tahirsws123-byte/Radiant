@@ -12,6 +12,8 @@ import img11 from "../../src/assets/r12.svg";
 import img12 from "../../src/assets/r13.svg";
 import img13 from "../../src/assets/r14.jpg";
 import img14 from "../../src/assets/r15.jpg";
+import img15 from "../../src/assets/r1.png";
+import img16 from "../../src/assets/r16.png";
 
 export default function Reach() {
   const circles = Array.from({ length: 42 }, (_, i) => 4 + i * 14);
@@ -28,7 +30,7 @@ export default function Reach() {
           <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
             <div className="max-lg:rounded-t-4xl lg:col-span-4 lg:rounded-tl-4xl rounded-lg bg-white shadow-xs ring-1 ring-black/5 dark:bg-gray-800 dark:ring-white/15">
               <div className="relative h-80 shrink-0">
-                <div className="h-80 bg-[url(../../src/assets/r1.png)] bg-size-[851px_344px] bg-no-repeat"></div>
+                <div style={{ backgroundImage: `url(${img15})` }} className="h-80 bg-size-[851px_344px] bg-no-repeat"></div>
                 <div className="absolute inset-0 bg-linear-to-b from-white to 50% dark:from-gray-800 dark:from-[-25%]"></div>
               </div>
               <div className="relative p-10">
@@ -280,7 +282,7 @@ export default function Reach() {
             </div>
             <div className="max-lg:rounded-b-4xl lg:col-span-4 lg:rounded-br-4xl group relative flex flex-col rounded-lg bg-white shadow-xs ring-1 ring-black/5 dark:bg-gray-800 dark:ring-white/15">
               <div className="relative h-80 shrink-0">
-                <div className="h-80 bg-[url(../../src/assets/r16.png)] bg-size-[851px_344px] bg-no-repeat"></div>
+                <div style={{ backgroundImage: `url(${img16})` }} className="h-80 bg-size-[851px_344px] bg-no-repeat"></div>
                 <div className="absolute inset-0 bg-linear-to-b from-white to-50% dark:from-gray-800 dark:from-[-25%]"></div>
               </div>
               <div className="relative p-10">
