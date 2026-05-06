@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/src/assets/Fonts/WEB/fonts/Switzer-Regular.woff2") format("woff2");
+  font-weight: 500;
+}
+
+body {
+  font-family: "Switzer", system-ui, sans-serif;
+}
+
+@keyframes move-x {
+  from {
+    transform: translateX(var(--move-x-from, -100%));
+  }
+  to {
+    transform: translateX(var(--move-x-to, 100%));
+  }
+}
+
+@keyframes ripple-perfect {
+  0% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1.05);
+    opacity: 0;
+  }
+}
+
+.animate-ripple {
+  animation: ripple-perfect 4s infinite cubic-bezier(0.4, 0, 0.6, 1);
+  transform-origin: center;
+  transform-box: fill-box;
+  stroke-width: 1.5px; 
+}
